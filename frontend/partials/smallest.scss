@@ -21,7 +21,7 @@
   background-size: 284px 104px;
   margin: 0;
   padding: 0;
-  background-image: url('/images/company_logo.png');
+  background-image: url('images/company_logo.png');
   text-indent: -9999px;
 }
 
@@ -110,8 +110,8 @@
 
 .navbar-default.affix {
   .navbar-brand {
-    // background-image: url('/images/company_logo2.png');
-    background-image: url('/images/company_logo.png');
+    // background-image: url('images/company_logo2.png');
+    background-image: url('images/company_logo.png');
     background-repeat: no-repeat;
     // width: 239px;
     width: 284px;
@@ -143,7 +143,7 @@
 
 /* start :: jumbotron */
 .jumbotron {
-  background: #000000 url('/images/jumbotron_background.png') no-repeat;
+  background: #000000 url('images/jumbotron_background.png') no-repeat;
   // padding-top: 167px;
   // padding-bottom: 60px;
   padding-top: 137px;
@@ -207,7 +207,7 @@
       content: '';
       width: 23px;
       height: 27px;
-      background: url('/images/android_icon.png') no-repeat;
+      background: url('images/android_icon.png') no-repeat;
       display: inline-block;
       position: absolute;
       top: 50%;
@@ -219,7 +219,7 @@
       content: '';
       width: 24px;
       height: 29px;
-      background: url('/images/iphone_icon.png') no-repeat;
+      background: url('images/iphone_icon.png') no-repeat;
       display: inline-block;
       position: absolute;
       top: 50%;
@@ -228,11 +228,11 @@
     }
 
     &.android_icon:hover:before {
-      background: url('/images/android_icon_blue.png') no-repeat;
+      background: url('images/android_icon_blue.png') no-repeat;
     }
 
     &.iphone_icon:hover:before {
-      background: url('/images/iphone_icon_blue.png') no-repeat;
+      background: url('images/iphone_icon_blue.png') no-repeat;
     }
   }
 
@@ -350,11 +350,11 @@
 
     .personalization.feature_icon {
       span {
-        background-image: url('/images/personalization.png');
+        background-image: url('images/personalization.png');
       }
 
       &:hover span {
-        background-image: url('/images/personalization_blue.png');
+        background-image: url('images/personalization_blue.png');
         background-color: #ffffff;
         border: 2px solid $primary_color_theme;
         // border: 2px solid #2499b0;
@@ -366,10 +366,10 @@
 
     .user_experience.feature_icon {
       span {
-        background-image: url('/images/user_experience.png');
+        background-image: url('images/user_experience.png');
       }
       &:hover span {
-        background-image: url('/images/user_experience_blue.png');
+        background-image: url('images/user_experience_blue.png');
         background-color: #ffffff;
         border: 2px solid $primary_color_theme;
         // border: 2px solid #2499b0;
@@ -381,10 +381,10 @@
 
     .local_partners.feature_icon {
       span {
-        background-image: url('/images/local_partners.png');
+        background-image: url('images/local_partners.png');
       }
       &:hover span {
-        background-image: url('/images/local_partners_blue.png');
+        background-image: url('images/local_partners_blue.png');
         background-color: #ffffff;
         border: 2px solid $primary_color_theme;
         // border: 2px solid #2499b0;
@@ -396,10 +396,10 @@
 
     .easy_platform.feature_icon {
       span {
-        background-image: url('/images/easy_platform.png');
+        background-image: url('images/easy_platform.png');
       }
       &:hover span {
-        background-image: url('/images/easy_platform_blue.png');
+        background-image: url('images/easy_platform_blue.png');
         background-color: #ffffff;
         border: 2px solid $primary_color_theme;
         // border: 2px solid #2499b0;
@@ -657,7 +657,7 @@
             width: 30px;
             height: 30px;
             display: inline-block;
-            background-image: url('/images/tick.png');
+            background-image: url('images/tick.png');
             background-repeat: no-repeat;
             position: absolute;
             background-size: 25px 25px;
@@ -693,7 +693,7 @@
   padding: 60px 15px;
   color: #ffffff;
   // background: asset_url('full_name_icon.png') no-repeat scroll 3px 5px;
-  background: #000000 url('/images/advertise_with_us_background.png') no-repeat;
+  background: #000000 url('images/advertise_with_us_background.png') no-repeat;
   // height: 25em;
   background-position: center;
   background-attachment: fixed;
